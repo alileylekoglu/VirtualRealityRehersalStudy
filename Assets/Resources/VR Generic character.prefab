@@ -87,7 +87,7 @@ MonoBehaviour:
   observableSearch: 2
   ObservedComponents:
   - {fileID: 671068018630203606}
-  - {fileID: 1358917143866211428}
+  - {fileID: 0}
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
@@ -4796,7 +4796,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7338523482158591201}
   - component: {fileID: 3566570345827121841}
-  - component: {fileID: 1358917143866211428}
   m_Layer: 0
   m_Name: Hand Visualizer
   m_TagString: Untagged
@@ -4845,22 +4844,6 @@ MonoBehaviour:
   m_VelocityPrefab: {fileID: 8538602047018081646, guid: 629fd7882ec6bfc499a5fcf20035282b,
     type: 3}
   m_VelocityType: 0
---- !u!114 &1358917143866211428
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6462823143808375345}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizePosition: 1
-  m_SynchronizeRotation: 1
-  m_SynchronizeScale: 0
-  m_UseLocal: 1
 --- !u!1 &6538386921031352920
 GameObject:
   m_ObjectHideFlags: 0
