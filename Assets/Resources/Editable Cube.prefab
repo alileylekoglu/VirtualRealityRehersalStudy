@@ -376,7 +376,6 @@ GameObject:
   - component: {fileID: 2869479699656868629}
   - component: {fileID: 5455994088591847911}
   - component: {fileID: 3174535995328355522}
-  - component: {fileID: 4823833323226074376}
   m_Layer: 0
   m_Name: Touchpad Flat Cube
   m_TagString: Untagged
@@ -541,29 +540,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 6266133294356680194}
   offset: {x: 0.4631, y: 0.3075004, z: -0.5472}
---- !u!114 &4823833323226074376
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 572787924413853144}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ObservedComponentsFoldoutOpen: 1
-  Group: 0
-  prefixField: -1
-  Synchronization: 3
-  OwnershipTransfer: 0
-  observableSearch: 2
-  ObservedComponents:
-  - {fileID: 5455994088591847911}
-  sceneViewId: 4
-  InstantiationId: 0
-  isRuntimeInstantiated: 0
 --- !u!1 &581017961159646939
 GameObject:
   m_ObjectHideFlags: 0
@@ -2447,10 +2423,8 @@ GameObject:
   - component: {fileID: 4891888424214310126}
   - component: {fileID: 4891888424214310122}
   - component: {fileID: 4891888424214310124}
-  - component: {fileID: 5903062236507538040}
   - component: {fileID: 862772160478039408}
-  - component: {fileID: 6128666321329714576}
-  - component: {fileID: 5972890640465042950}
+  - component: {fileID: 7484365966496993595}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -2569,7 +2543,7 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 1050908021570271116, guid: 2b53277e53512f048ad925ffa25c6735, type: 3}
---- !u!114 &5903062236507538040
+--- !u!114 &862772160478039408
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2578,7 +2552,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 3704765832349157953}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
+  m_Script: {fileID: 11500000, guid: 49e6f266dc84f5345a64b75df182ec6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materials:
+  - {fileID: 2100000, guid: 4dc836ac517950246a991430dad52b32, type: 2}
+  - {fileID: 2100000, guid: 26b09e85ded2c7e4abd84a5a106427fb, type: 2}
+  - {fileID: 2100000, guid: f49b0e045ed253f42af080204386fdcb, type: 2}
+  - {fileID: 2100000, guid: 0425384f7732d94429dcc6a5af51cc8b, type: 2}
+  - {fileID: 2100000, guid: 4307e1db9e74d44409e2ec18ddbae32c, type: 2}
+  - {fileID: 2100000, guid: 1822cb2e40ada97409ac0bbf70bdcf32, type: 2}
+  - {fileID: 2100000, guid: 280e89c580a0cd84baad9b868ac36a4e, type: 2}
+  - {fileID: 2100000, guid: 79b014f8f1154a248961510bc8f77027, type: 2}
+--- !u!114 &7484365966496993595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3704765832349157953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9349fa89f6b89804ab452a587e93bd5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 0}
@@ -2619,19 +2614,7 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 572787924413853144}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
+      m_Calls: []
   m_SelectExited:
     m_PersistentCalls:
       m_Calls: []
@@ -2685,7 +2668,7 @@ MonoBehaviour:
       m_Calls: []
   m_AttachTransform: {fileID: 0}
   m_SecondaryAttachTransform: {fileID: 0}
-  m_UseDynamicAttach: 1
+  m_UseDynamicAttach: 0
   m_MatchAttachPosition: 1
   m_MatchAttachRotation: 1
   m_SnapToColliderVolume: 1
@@ -2704,7 +2687,7 @@ MonoBehaviour:
   m_SmoothRotation: 0
   m_SmoothRotationAmount: 5
   m_TightenRotation: 0.5
-  m_ThrowOnDetach: 0
+  m_ThrowOnDetach: 1
   m_ThrowSmoothingDuration: 0.25
   m_ThrowSmoothingCurve:
     serializedVersion: 2
@@ -2729,62 +2712,6 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
---- !u!114 &862772160478039408
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3704765832349157953}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49e6f266dc84f5345a64b75df182ec6d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  materials:
-  - {fileID: 2100000, guid: 4dc836ac517950246a991430dad52b32, type: 2}
-  - {fileID: 2100000, guid: 26b09e85ded2c7e4abd84a5a106427fb, type: 2}
-  - {fileID: 2100000, guid: f49b0e045ed253f42af080204386fdcb, type: 2}
-  - {fileID: 2100000, guid: 0425384f7732d94429dcc6a5af51cc8b, type: 2}
-  - {fileID: 2100000, guid: 4307e1db9e74d44409e2ec18ddbae32c, type: 2}
-  - {fileID: 2100000, guid: 1822cb2e40ada97409ac0bbf70bdcf32, type: 2}
-  - {fileID: 2100000, guid: 280e89c580a0cd84baad9b868ac36a4e, type: 2}
-  - {fileID: 2100000, guid: 79b014f8f1154a248961510bc8f77027, type: 2}
---- !u!114 &6128666321329714576
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3704765832349157953}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f841e53bc8bb77341aaf79357d640a48, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &5972890640465042950
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3704765832349157953}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ObservedComponentsFoldoutOpen: 1
-  Group: 0
-  prefixField: -1
-  Synchronization: 3
-  OwnershipTransfer: 1
-  observableSearch: 0
-  ObservedComponents:
-  - {fileID: 4891888424214310122}
-  sceneViewId: 3
-  InstantiationId: 0
-  isRuntimeInstantiated: 0
 --- !u!1 &4069878538813115640
 GameObject:
   m_ObjectHideFlags: 0
@@ -3156,6 +3083,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1884726093531883490}
+  - component: {fileID: 3763419575868794610}
   m_Layer: 0
   m_Name: Editable Cube
   m_TagString: Untagged
@@ -3180,6 +3108,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3763419575868794610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4504816353554615129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 1
+  observableSearch: 0
+  ObservedComponents:
+  - {fileID: 4891888424214310122}
+  - {fileID: 5455994088591847911}
+  sceneViewId: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1 &4587323185469617449
 GameObject:
   m_ObjectHideFlags: 0
