@@ -456,7 +456,7 @@ LineRenderer:
   m_Positions: []
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.02
+    widthMultiplier: 0.01
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -1207,7 +1207,7 @@ MonoBehaviour:
   prefixField: -1
   Synchronization: 3
   OwnershipTransfer: 0
-  observableSearch: 2
+  observableSearch: 0
   ObservedComponents:
   - {fileID: 671068018630203606}
   sceneViewId: 0
@@ -3069,7 +3069,7 @@ LineRenderer:
   m_Positions: []
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.02
+    widthMultiplier: 0.007
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -4379,7 +4379,7 @@ LineRenderer:
   m_Positions: []
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.02
+    widthMultiplier: 0.01
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -5165,7 +5165,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2669567418143598945}
   - component: {fileID: 2669567418143598948}
-  - component: {fileID: 2669567418143598950}
   - component: {fileID: 8319025475092673152}
   - component: {fileID: 1959834370461315897}
   m_Layer: 0
@@ -5233,14 +5232,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!81 &2669567418143598950
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2669567418143598946}
-  m_Enabled: 1
 --- !u!114 &8319025475092673152
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6536,7 +6527,6 @@ GameObject:
   - component: {fileID: 8319025475092673161}
   - component: {fileID: 8319025475092673164}
   - component: {fileID: 8491109153775686946}
-  - component: {fileID: 6978207683348679794}
   - component: {fileID: 4952444897145993086}
   m_Layer: 2
   m_Name: XR Origin (XR Rig)
@@ -6640,34 +6630,6 @@ MonoBehaviour:
   m_MotionControllerModeEnded:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &6978207683348679794
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3664615073143042110}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c9b3d17eeb2e6bc47ada81d8f7f638d8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_GazeInteractor: {fileID: 0}
-  m_FallbackDivergence: 60
-  m_HideCursorWithNoActiveRays: 1
-  m_RayInteractors:
-  - m_Interactor: {fileID: 2808519217780041236}
-    m_TeleportRay: 0
-  - m_Interactor: {fileID: 2669567417526215963}
-    m_TeleportRay: 1
-  - m_Interactor: {fileID: 2688523815887846047}
-    m_TeleportRay: 0
-  - m_Interactor: {fileID: 356717887187452162}
-    m_TeleportRay: 1
-  m_AimAssistRequiredAngle: 30
-  m_AimAssistRequiredSpeed: 0.25
-  m_AimAssistPercent: 0.8
-  m_AimAssistMaxSpeedPercent: 10
 --- !u!114 &4952444897145993086
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6686,8 +6648,8 @@ MonoBehaviour:
   AvatarHand_Left: {fileID: 2923905578887428283}
   AvatarHand_Right: {fileID: 6697716120665310072}
   XRHead: {fileID: 3664615073143042109}
-  XRHand_Left: {fileID: 0}
-  XRHand_Right: {fileID: 0}
+  XRHand_Left: {fileID: 3833413365040794061}
+  XRHand_Right: {fileID: 3866301549383200810}
   headPositionOffset: {x: 0, y: 0, z: 0}
   handRotationOffset: {x: 0, y: 0, z: 0}
 --- !u!1 &3708801264000646253
@@ -9248,7 +9210,7 @@ LineRenderer:
   m_Positions: []
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.02
+    widthMultiplier: 0.007
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -9921,7 +9883,7 @@ LineRenderer:
   m_Positions: []
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.02
+    widthMultiplier: 0.005
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -10345,7 +10307,7 @@ LineRenderer:
   m_Positions: []
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.02
+    widthMultiplier: 0.005
     widthCurve:
       serializedVersion: 2
       m_Curve:
