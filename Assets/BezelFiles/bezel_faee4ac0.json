@@ -1,0 +1,670 @@
+{
+  "bezel_objects": [
+    {
+      "id": "faee4ac0-d382-443d-86a6-9799eb9ea574--26c04eb4-87c2-4d51-8959-daf2104c99c6",
+      "type": "Box",
+      "lastWriter": "2387eb64-7bb4-44a7-ad20-a8328ab78f28",
+      "lastUpdated": 1698190339239,
+      "name": "Box 1",
+      "parent": null,
+      "index": "a0",
+      "isVisible": true,
+      "isLocked": false,
+      "collapsed": false,
+      "activeState": null,
+      "activeParentStateId": null,
+      "states": {},
+      "parentStates": {},
+      "startState": null,
+      "colliders": {},
+      "ttl": 0,
+      "asset": null,
+      "assetSource": null,
+      "isInstance": false,
+      "importedAnimations": {},
+      "behaviors": {},
+      "interactions": {},
+      "version": 230927,
+      "_metadata": {},
+      "position": {
+        "x": -0.49697084143443693,
+        "y": 0.50283590103511955,
+        "z": -0.50463591173921252
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "isScaleLinked": false,
+      "lastGeometryUpdated": 1698190344212,
+      "subdivisions": 0,
+      "parameters": {
+        "width": 1.022,
+        "height": 1.006,
+        "depth": 0.978,
+        "areDimensionsLinked": false,
+        "bevelOffset": 0,
+        "bevelSegments": 4
+      },
+      "material": "3fb6f8bf-6b84-4f42-a913-b294e7bb676a",
+      "viewSettings": {
+        "castShadow": true,
+        "receiveShadow": true,
+        "side": 0
+      },
+      "isInteractive": true,
+      "layerOpacity": 1,
+      "activeImportedAnimation": null,
+      "urlKey": null,
+      "assetVersion": 0
+    },
+    {
+      "id": "faee4ac0-d382-443d-86a6-9799eb9ea574--866582c1-6789-44bf-8af4-0b9ad1ff67b8",
+      "type": "Shape",
+      "lastWriter": "2387eb64-7bb4-44a7-ad20-a8328ab78f28",
+      "lastUpdated": 1698190339239,
+      "name": "Curve 1",
+      "parent": null,
+      "index": "Zw",
+      "isVisible": true,
+      "isLocked": false,
+      "collapsed": false,
+      "activeState": null,
+      "activeParentStateId": null,
+      "states": {},
+      "parentStates": {},
+      "startState": null,
+      "colliders": {},
+      "ttl": 0,
+      "asset": null,
+      "assetSource": null,
+      "isInstance": false,
+      "importedAnimations": {},
+      "behaviors": {},
+      "interactions": {},
+      "version": 230927,
+      "_metadata": {},
+      "position": {
+        "x": -1.016595254804934,
+        "y": 0,
+        "z": -8.9973348311548058
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1.1343417225292471,
+        "y": 1,
+        "z": 1.1134364960582972
+      },
+      "isScaleLinked": false,
+      "lastGeometryUpdated": 1698190347020,
+      "subdivisions": 0,
+      "parameters": {
+        "keyPoints": [
+          {
+            "id": "bf022982-eb5d-4db4-9f44-9b1e432dc402",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "controls": [
+              {
+                "position": [
+                  0,
+                  0,
+                  0
+                ],
+                "showHandle": false
+              },
+              {
+                "position": [
+                  0,
+                  0,
+                  0
+                ],
+                "showHandle": false
+              }
+            ],
+            "mirroredControlPoints": false
+          },
+          {
+            "id": "3a3b1c59-db0c-4d1d-9231-c1b57ae7a1da",
+            "position": [
+              0.89869299652377665,
+              0,
+              0.43228270718886996
+            ],
+            "controls": [
+              {
+                "position": [
+                  0.89869299652377665,
+                  0,
+                  0.43228270718886996
+                ],
+                "showHandle": false
+              },
+              {
+                "position": [
+                  0.89869299652377665,
+                  0,
+                  0.43228270718886996
+                ],
+                "showHandle": false
+              }
+            ],
+            "mirroredControlPoints": false
+          },
+          {
+            "id": "7b116657-f5f5-4aba-9b0d-f6ae97dae5c3",
+            "position": [
+              0,
+              0,
+              0.87594127509323272
+            ],
+            "controls": [
+              {
+                "position": [
+                  0,
+                  0,
+                  0.87594127509323272
+                ],
+                "showHandle": false
+              },
+              {
+                "position": [
+                  0,
+                  0,
+                  0.87594127509323272
+                ],
+                "showHandle": false
+              }
+            ],
+            "mirroredControlPoints": false
+          }
+        ],
+        "curveType": "Fill",
+        "stepSize": 0.079244659623055672,
+        "angleThreshold": 0.012526020063495409,
+        "drawingPlane": {
+          "x": 0,
+          "y": 1,
+          "z": 0,
+          "w": 0
+        },
+        "height": 0
+      },
+      "material": "64f0296e-0542-4ea1-8b81-ee56ce169064",
+      "viewSettings": {
+        "castShadow": true,
+        "receiveShadow": true,
+        "side": 0
+      },
+      "isInteractive": true,
+      "layerOpacity": 1,
+      "activeImportedAnimation": null,
+      "urlKey": "5973aefa-6406-47a6-91ab-4d2474945cae",
+      "assetVersion": 0
+    },
+    {
+      "id": "faee4ac0-d382-443d-86a6-9799eb9ea574--be1da6f8-9770-4301-b44b-1673e4cdf8d6",
+      "type": "Model",
+      "lastWriter": "2387eb64-7bb4-44a7-ad20-a8328ab78f28",
+      "lastUpdated": 1698190339240,
+      "name": "Pyramid",
+      "parent": "faee4ac0-d382-443d-86a6-9799eb9ea574--0bad3ed8-cb01-47ae-aa18-01a1fbbeab86",
+      "index": "Zu",
+      "isVisible": true,
+      "isLocked": false,
+      "collapsed": false,
+      "activeState": null,
+      "activeParentStateId": null,
+      "states": {},
+      "parentStates": {},
+      "startState": null,
+      "colliders": {},
+      "ttl": 0,
+      "asset": null,
+      "assetSource": null,
+      "isInstance": false,
+      "importedAnimations": {},
+      "behaviors": {},
+      "interactions": {},
+      "version": 230927,
+      "_metadata": {},
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "isScaleLinked": true,
+      "lastGeometryUpdated": 1698190347150,
+      "subdivisions": 0,
+      "parameters": {
+        "width": 2,
+        "height": 3,
+        "depth": 2,
+        "areDimensionsLinked": false
+      },
+      "material": "da21e55b-d7a4-4d42-899f-d4809938a0fb",
+      "viewSettings": {
+        "castShadow": true,
+        "receiveShadow": true,
+        "side": 0
+      },
+      "isInteractive": true,
+      "layerOpacity": 1,
+      "activeImportedAnimation": null,
+      "urlKey": "07600c0c-301a-44ef-87e2-830de0c693be",
+      "assetVersion": 0
+    },
+    {
+      "id": "faee4ac0-d382-443d-86a6-9799eb9ea574--0bad3ed8-cb01-47ae-aa18-01a1fbbeab86",
+      "type": "Group",
+      "lastWriter": "2387eb64-7bb4-44a7-ad20-a8328ab78f28",
+      "lastUpdated": 1698190339239,
+      "name": "",
+      "parent": "faee4ac0-d382-443d-86a6-9799eb9ea574--ac31bbd6-a386-4457-8480-f3023b396b44",
+      "index": "Zu",
+      "isVisible": true,
+      "isLocked": false,
+      "collapsed": false,
+      "activeState": null,
+      "activeParentStateId": null,
+      "states": {},
+      "parentStates": {},
+      "startState": null,
+      "colliders": {},
+      "ttl": 0,
+      "asset": null,
+      "assetSource": null,
+      "isInstance": false,
+      "importedAnimations": {},
+      "behaviors": {},
+      "interactions": {},
+      "version": 230927,
+      "_metadata": {},
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "isScaleLinked": true,
+      "lastGeometryUpdated": 0,
+      "subdivisions": 0,
+      "parameters": {
+        "helperType": "NONE"
+      },
+      "viewSettings": {
+        "castShadow": true,
+        "receiveShadow": true,
+        "side": 0
+      },
+      "isInteractive": true,
+      "layerOpacity": 1,
+      "activeImportedAnimation": null,
+      "urlKey": null,
+      "assetVersion": 0
+    },
+    {
+      "id": "faee4ac0-d382-443d-86a6-9799eb9ea574--ac31bbd6-a386-4457-8480-f3023b396b44",
+      "type": "Group",
+      "lastWriter": "2387eb64-7bb4-44a7-ad20-a8328ab78f28",
+      "lastUpdated": 1698190339239,
+      "name": "Group 1",
+      "parent": null,
+      "index": "Zv",
+      "isVisible": true,
+      "isLocked": false,
+      "collapsed": false,
+      "activeState": null,
+      "activeParentStateId": null,
+      "states": {},
+      "parentStates": {},
+      "startState": null,
+      "colliders": {},
+      "ttl": 0,
+      "asset": null,
+      "assetSource": null,
+      "isInstance": false,
+      "importedAnimations": {},
+      "behaviors": {},
+      "interactions": {},
+      "version": 230927,
+      "_metadata": {},
+      "position": {
+        "x": -0.53805031957149385,
+        "y": 0,
+        "z": -13.525713835956536
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+      },
+      "isScaleLinked": false,
+      "lastGeometryUpdated": 0,
+      "subdivisions": 0,
+      "parameters": {
+        "helperType": "NONE"
+      },
+      "viewSettings": {
+        "castShadow": true,
+        "receiveShadow": true,
+        "side": 0
+      },
+      "isInteractive": true,
+      "layerOpacity": 1,
+      "activeImportedAnimation": null,
+      "urlKey": null,
+      "assetVersion": 0
+    },
+    {
+      "id": "faee4ac0-d382-443d-86a6-9799eb9ea574--2f123d79-8324-4b3b-946e-126e88fd1d00",
+      "type": "Box",
+      "lastWriter": "2387eb64-7bb4-44a7-ad20-a8328ab78f28",
+      "lastUpdated": 1698190339239,
+      "name": "Box 2",
+      "parent": null,
+      "index": "ZzV",
+      "isVisible": true,
+      "isLocked": false,
+      "collapsed": false,
+      "activeState": null,
+      "activeParentStateId": null,
+      "states": {},
+      "parentStates": {},
+      "startState": null,
+      "colliders": {},
+      "ttl": 0,
+      "asset": null,
+      "assetSource": null,
+      "isInstance": false,
+      "importedAnimations": {},
+      "behaviors": {},
+      "interactions": {},
+      "version": 230927,
+      "_metadata": {},
+      "position": {
+        "x": -0.30871296014110872,
+        "y": 0.50283590103511955,
+        "z": -10.958277385323305
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0.5,
+        "y": 1,
+        "z": 2
+      },
+      "isScaleLinked": false,
+      "lastGeometryUpdated": 1698190345325,
+      "subdivisions": 0,
+      "parameters": {
+        "width": 1.022,
+        "height": 1.006,
+        "depth": 0.978,
+        "areDimensionsLinked": false,
+        "bevelOffset": 0,
+        "bevelSegments": 4
+      },
+      "material": "5c79afe2-fea6-4ac3-a2dc-98737dbd718e",
+      "viewSettings": {
+        "castShadow": true,
+        "receiveShadow": true,
+        "side": 0
+      },
+      "isInteractive": true,
+      "layerOpacity": 1,
+      "activeImportedAnimation": null,
+      "urlKey": null,
+      "assetVersion": 0
+    },
+    {
+      "id": "faee4ac0-d382-443d-86a6-9799eb9ea574--d5131d7a-8dc8-409c-81cf-22a0c683f24e",
+      "type": "Cylinder",
+      "lastWriter": "2387eb64-7bb4-44a7-ad20-a8328ab78f28",
+      "lastUpdated": 1698190339240,
+      "name": "Cylinder 1",
+      "parent": null,
+      "index": "Zy",
+      "isVisible": true,
+      "isLocked": false,
+      "collapsed": false,
+      "activeState": null,
+      "activeParentStateId": null,
+      "states": {},
+      "parentStates": {},
+      "startState": null,
+      "colliders": {},
+      "ttl": 0,
+      "asset": null,
+      "assetSource": null,
+      "isInstance": false,
+      "importedAnimations": {},
+      "behaviors": {},
+      "interactions": {},
+      "version": 230927,
+      "_metadata": {},
+      "position": {
+        "x": -0.50807064481553965,
+        "y": 0.47800524881172146,
+        "z": -4.503389872950553
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "isScaleLinked": false,
+      "lastGeometryUpdated": 1698190345453,
+      "subdivisions": 0,
+      "parameters": {
+        "width": 0.992,
+        "height": 0.95601049762344292,
+        "depth": 0.992,
+        "segmentsAround": 32,
+        "sliceAngle": 6.2831853071795862,
+        "radiusTop": 0.496,
+        "radiusBottom": 0.496,
+        "bevelOffsetTop": 0,
+        "bevelSegmentsTop": 4,
+        "bevelOffsetBottom": 0,
+        "bevelSegmentsBottom": 4,
+        "areBevelSegmentsLinked": true,
+        "areBevelOffsetsLinked": true,
+        "areRadiiLinked": true,
+        "areDimensionsLinked": false
+      },
+      "material": "dace95d1-d2f7-43ec-a1aa-cd5990c7e22e",
+      "viewSettings": {
+        "castShadow": true,
+        "receiveShadow": true,
+        "side": 0
+      },
+      "isInteractive": true,
+      "layerOpacity": 1,
+      "activeImportedAnimation": null,
+      "urlKey": null,
+      "assetVersion": 0
+    },
+    {
+      "id": "faee4ac0-d382-443d-86a6-9799eb9ea574--ee9423f6-ca71-4ad8-8389-31f7ac576a70",
+      "type": "Cone",
+      "lastWriter": "2387eb64-7bb4-44a7-ad20-a8328ab78f28",
+      "lastUpdated": 1698190339240,
+      "name": "Cone 1",
+      "parent": null,
+      "index": "Zx",
+      "isVisible": true,
+      "isLocked": false,
+      "collapsed": false,
+      "activeState": null,
+      "activeParentStateId": null,
+      "states": {},
+      "parentStates": {},
+      "startState": null,
+      "colliders": {},
+      "ttl": 0,
+      "asset": null,
+      "assetSource": null,
+      "isInstance": false,
+      "importedAnimations": {},
+      "behaviors": {},
+      "interactions": {},
+      "version": 230927,
+      "_metadata": {},
+      "position": {
+        "x": -0.47493902624006168,
+        "y": 0.47861454885584775,
+        "z": -6.4977633609869994
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "isScaleLinked": false,
+      "lastGeometryUpdated": 1698190345556,
+      "subdivisions": 0,
+      "parameters": {
+        "width": 0.973,
+        "height": 0.957229097711692,
+        "depth": 0.973,
+        "segmentsAround": 32,
+        "sliceAngle": 6.2831853071795862,
+        "bevelOffsetTop": 0,
+        "bevelSegmentsTop": 4,
+        "bevelOffsetBottom": 0,
+        "bevelSegmentsBottom": 4,
+        "areBevelSegmentsLinked": true,
+        "areBevelOffsetsLinked": true,
+        "areDimensionsLinked": true
+      },
+      "material": "221431ad-c7ce-4d33-8e6b-8e40428249b5",
+      "viewSettings": {
+        "castShadow": true,
+        "receiveShadow": true,
+        "side": 0
+      },
+      "isInteractive": true,
+      "layerOpacity": 1,
+      "activeImportedAnimation": null,
+      "urlKey": null,
+      "assetVersion": 0
+    },
+    {
+      "id": "faee4ac0-d382-443d-86a6-9799eb9ea574--7d3e6f7c-e0bd-4b7e-b3f0-20d953d5fa80",
+      "type": "Sphere",
+      "lastWriter": "2387eb64-7bb4-44a7-ad20-a8328ab78f28",
+      "lastUpdated": 1698190339240,
+      "name": "Sphere 1",
+      "parent": null,
+      "index": "Zz",
+      "isVisible": true,
+      "isLocked": false,
+      "collapsed": false,
+      "activeState": null,
+      "activeParentStateId": null,
+      "states": {},
+      "parentStates": {},
+      "startState": null,
+      "colliders": {},
+      "ttl": 0,
+      "asset": null,
+      "assetSource": null,
+      "isInstance": false,
+      "importedAnimations": {},
+      "behaviors": {},
+      "interactions": {},
+      "version": 230927,
+      "_metadata": {},
+      "position": {
+        "x": -0.5014354884293617,
+        "y": 0.497,
+        "z": -2.49693100522023
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "isScaleLinked": false,
+      "lastGeometryUpdated": 1698190345648,
+      "subdivisions": 0,
+      "parameters": {
+        "width": 0.994,
+        "height": 0.994,
+        "depth": 0.994,
+        "segmentsAround": 32,
+        "segmentsDown": 32,
+        "sliceYAngle": 3.1415926535897931,
+        "areSegmentsLinked": true,
+        "areDimensionsLinked": true
+      },
+      "material": "9969899a-8bfc-4b08-b1a6-febe91e18fef",
+      "viewSettings": {
+        "castShadow": true,
+        "receiveShadow": true,
+        "side": 0
+      },
+      "isInteractive": true,
+      "layerOpacity": 1,
+      "activeImportedAnimation": null,
+      "urlKey": null,
+      "assetVersion": 0
+    }
+  ]
+}
